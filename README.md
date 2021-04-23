@@ -39,9 +39,8 @@ DB_PASSWORD=
 * run `php artisan migrate fresh --seed`
 
 ###  How to Test Email Functionality?
-Once you create ticket and Make Reply to the ticket.
-You shoud have to run que jobs using this command
-```php artisan queue:work ```
+Once you create ticket and Make Reply to the ticket.You shoud have to run que jobs using this command
+* ```php artisan queue:work ```
 
 
 ## Routes (Links)
