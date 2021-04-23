@@ -16,5 +16,9 @@ class UserTableSeeder extends Seeder
     public function run()
     {
         User::factory(10)->create();
+
+        //Demo Password Generator
+        User::factory()->create(['email' => "sameera@test.com", "password" => bcrypt('19901126')]);
+
     }
 }
