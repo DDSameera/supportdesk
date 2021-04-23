@@ -6,10 +6,10 @@
 * Clone this ```repo```
 * Implement it on Local Server (WAMP or XAMPP)
 * Update project using `composer update`
-* Email functionality setup using ```MailTrap```
 
 
 ## Configuration - env.xml
+* Email functionality setup using ```MailTrap```
 * you should have to configuered```Mail Trap``` Settings
 https://mailtrap.io/
 ```
@@ -22,8 +22,7 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=support@dev.com
 MAIL_FROM_NAME="${APP_NAME}"
 ```
-* Setup Queue Jobs - Added this code to env.xml
-```QUEUE_CONNECTION=database```
+* Setup Queue Jobs - ```QUEUE_CONNECTION=database```
 
 * DB Configuration 
 ```
